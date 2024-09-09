@@ -9,7 +9,8 @@ Launches a headless instance of Chrome using chrome-launcher.
 Runs Lighthouse audits to measure the performance of specified URLs.
 Extracts and logs the "speed-index" metric, representing page load time.
 Handles errors and logs any issues encountered during the audit process.
-Dependencies:
+
+**Dependencies:**
 
 **lighthouse**: Used for running performance audits.
 chrome-launcher: Used for launching a headless Chrome instance.
@@ -25,3 +26,7 @@ Run the script using Node.js.
 2. ```node lighthouseAudit.js```
 
 **Dependencies**: nvm >= 18.14.0
+
+**Check the Results**
+
+After the script completes, the results will be saved in an Excel file in the same directory. The file name will include a timestamp to distinguish between different runs.
