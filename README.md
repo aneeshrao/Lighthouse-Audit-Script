@@ -41,8 +41,8 @@ A Node.js utility for running automated Lighthouse audits on multiple URLs, outp
    MM-DD.xlsx, where YYYY-MM-DD is the current date.
 
  - The Excel file will contain two columns:
-   1. **url**: The audited URL.
-   2. **loadTime**: The page load time (in milliseconds) as measured by Lighthouse.
+   1. **URL**: The audited URL.
+   2. **Load Time**: The page load time (in milliseconds) as measured by Lighthouse.
 
 **Reference**
 
