@@ -37,8 +37,8 @@ A Node.js utility for running automated Lighthouse audits on multiple URLs, outp
 
 **Output**
 
- - The results of the audit, including the URLs and their corresponding load times, will be saved in an Excel file named lighthouse-results-YYYY- 
-   MM-DD.xlsx, where YYYY-MM-DD is the current date.
+ - The results of the audit, including the URLs and their corresponding load times, will be saved in an Excel file named ```lighthouse-results-YYYY- 
+   MM-DD.xlsx```, where YYYY-MM-DD is the current date.
 
  - The Excel file will contain two columns:
    1. **URL**: The audited URL.
